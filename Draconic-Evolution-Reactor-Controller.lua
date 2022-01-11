@@ -9,7 +9,7 @@ local safeTemperature = 7500
 local lowestFieldPercent = 25
 
 -- please leave things untouched from here on
-os.loadAPI("lib/lib")
+os.loadAPI("lib/f")
 
 -- toggleable via the monitor, use our algorithm to achieve our target field strength or let the user tweak it
 local autoInputGate = 1
