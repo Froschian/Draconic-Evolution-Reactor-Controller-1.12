@@ -1,6 +1,6 @@
 --installation script
---rhNbNbFE
---Version 1.0
+--seqanpRN 
+--Version 2.0
 
 local libURL = "https://raw.githubusercontent.com/Froschian/Draconic-Evolution-Reactor-Controller-1.12/main/lib/lib.lua"
 local startupURL = "https://raw.githubusercontent.com/Froschian/Draconic-Evolution-Reactor-Controller-1.12/main/Draconic-Evolution-Reactor-Controller.lua"
