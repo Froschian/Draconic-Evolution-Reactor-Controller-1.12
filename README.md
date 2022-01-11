@@ -1,6 +1,10 @@
 # Draconic Evolution Reactor Controller
 * Monitor and failsafe automation for your draconic evolution reactor
-* This program is based of acidjazz's code. Link to the original: https://github.com/acidjazz/drmon 
+* This program is based of acidjazz's & OmegaPhi115 code. 
+* Link to the original: https://github.com/acidjazz/drmon 
+* Link to OmegaPhi115's Version: https://github.com/OmegaPhi115/Draconic-Evolution-Reactor-Controller
+
+### This Project is now gonna be mainly maintained by me
 
 ![](examples/Reactor_1.png)
 
