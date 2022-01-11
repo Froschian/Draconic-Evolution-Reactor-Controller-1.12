@@ -1,4 +1,4 @@
-local version = "1.0"
+local version = "2.0"
 -- modifiable variables
 local reactorSide = "left"
 local outputfluxgateSide = "top"
@@ -9,7 +9,7 @@ local safeTemperature = 7500
 local lowestFieldPercent = 25
 
 -- please leave things untouched from here on
-os.loadAPI("lib/f")
+os.loadAPI("lib/lib")
 
 -- toggleable via the monitor, use our algorithm to achieve our target field strength or let the user tweak it
 local autoInputGate = 1
@@ -186,9 +186,6 @@ function update()
     print("Input Gate: ", inputfluxgate.getSignalLowFlow())
 
     -- monitor output
-	--f.draw_text(mon, 1, 1, "O", colors.black, colors.white)
-	f.draw_text(mon, 1, 1, "Reactor Controler>>>>>>>>>>>>", colors.white, colors.green)
-
     local statusColor
     statusColor = colors.red
 
